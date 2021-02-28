@@ -3,9 +3,7 @@ import { ChallengesPrivider } from '../contexts/ChallengesContext';
 
 function MyApp({ Component, pageProps }) {  
   return (
-    <ChallengesPrivider>
-      <Component {...pageProps} />
-    </ChallengesPrivider>
+    <Component {...pageProps} />
   );
 }
 
